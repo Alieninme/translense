@@ -1,0 +1,19 @@
+.money{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: rgb(196, 143, 143);
+}
+
+.barConatainer{
+    width: 100%;
+}
+.percentage{
+    color: #A3DA8D;
+    font-size: 10px;
+}
+
+.money p{
+    font-size: 10px;
+    color: white;
+}

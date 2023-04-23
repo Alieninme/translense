@@ -1,0 +1,102 @@
+.navConatiner{
+    background-color: #146356; 
+}
+
+.socialIconBg{
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #146356;
+    align-items: center;
+    height: 82px;
+    width: 90%;
+    margin: auto;
+}
+
+nav img{
+    width: 70px;
+}
+
+.buttonCont img{
+    width: 30px;
+}
+
+.buttonCont{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonCont button{
+    width: 130px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    background-color: #FFA17A;
+    border: none;
+    border-radius: 4px;
+}
+
+.navLinks a{
+    text-decoration: none;
+    color: #F3EADA;
+    display: inline-block;
+}
+
+.navLinks a::after{
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    transition: 0.5s;
+    position: relative;
+    right: -5px;
+}
+
+a:hover:after {
+    opacity: 1;
+  }
+
+.navLinks{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+
+.socialIconCont{
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;    
+}
+
+.socialRight{
+    color : white;
+    display: flex;
+    width: 230px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialRight p{
+    font-size: 11px;
+}
+
+.socialIcons{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.socialIcons a{
+    color: #FFA17A;
+}
+
+.socialRight a{
+    color: #FFA17A;
+}

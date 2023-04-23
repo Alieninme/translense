@@ -1,0 +1,338 @@
+.heroSections{
+    height: 60vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-position: center;
+    color: white;
+}
+
+.heroHeadings h1 span{
+    color: #A3DA8D;
+    font-size: 50px;
+
+}
+
+.shift{
+    margin-left: 120px;
+}
+
+.heroHeadings{
+    padding-top: 100px;
+}
+
+.heroHeadings h1{
+    font-size: 50px;
+}
+
+.heroLines{
+    width: 400px;
+    border: 1px solid #F3EADA;
+    margin-bottom: 50px;
+}
+
+.ourStory{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.osLeft{
+    width: 70%;  
+}
+
+.osWho{
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.osDesc{
+    margin-top: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+
+.osPoints p{
+    margin-bottom: 20px;
+}
+
+.Sustain{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.Sustain img{
+    width: 60%;
+    border-radius: 10px;
+}
+
+.sustainCont img{
+    width: 150px;
+    position: relative;
+    top: -100px;
+    left: 300px;
+}
+
+.sustainCont{
+    margin-left: 30px;
+}
+
+.sustainText{
+    margin-top: -150px;
+}
+
+.sustainText h4{
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+
+.sustainText h1{
+    margin-bottom: 50px;
+}
+
+.sustainText p{
+    line-height: 25px;
+}
+
+.sustainText button{
+    background-color: transparent;
+    color: #146356;
+    border: 2px solid #146356;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    top: -20px;
+    left: -100px;
+}
+
+.owHeading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.ourWonders{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.owHeading h4{
+    font-size: 15px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.owHeading h1{
+    letter-spacing: 3px;
+}
+
+.owLinks{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.owLinks a{
+    text-decoration: none;
+    color: #575757;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.owLinks a:hover{
+    color: black;
+    border-bottom: 2px solid #A3DA8D;
+}
+
+.owCardCont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.owCard img{
+    width: 27vw;
+}
+
+.owCard{
+    margin: 20px;
+    border: 1px solid #14c5a8;
+    border-radius: 5px;
+}
+
+.owCard h1{
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: #146356;
+    margin-bottom: 10px;
+}
+
+.owCardText{
+    padding: 10px;
+}
+
+.owCardText p{
+    color: #575757;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.owCard button{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    position: relative;
+    top: -150px;
+    left: 140px;
+    visibility: hidden;
+}
+
+.owCard:hover button{
+    visibility: visible;
+}
+
+.owCard button:hover{
+    background-color: white;
+    color: #146356;
+}
+
+.getStarted{
+    width: 100%;
+    text-align: center;
+}
+
+.gsHands{
+    display: flex;
+    background-color: #575757;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: left;
+}
+
+
+.gsPeople img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.gshandsList{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gsPeople h4{
+    font-size: 15px;
+    color: #F3EADA;
+    font-weight: 200;
+}
+
+.gsPeople p{
+    font-size: 12px;
+    color: #5B9289;
+}
+
+.gshandsText{
+    color: #F3EADA;
+    width: 30%;
+    margin-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.gshandsText h1{
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.gshandsText p{
+    margin-bottom: 50px;
+}
+
+.btnCont{
+    font-size: 30px;
+    color: #A3DA8D;
+    cursor: pointer;
+}
+
+.gsBtn{
+    width: 100px;
+    height: 40px;
+    color: #F3EADA;
+    background-color: #146356;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.gsFooter{
+    text-align: center;
+}
+
+.gsFooter h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.gsFooter p{
+    color: #575757;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.gsFooter button{
+    margin-bottom: 50px;
+}
+
+.cfSingle img{
+    width: 80px;
+    height: 80px;
+}
+
+.compFacts{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.cfText{
+    width: 50%;
+}
+
+.cfList{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+}
+
+.cfSingle{
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.cfSingle h1{
+    font-size: 40px;
+    color: #146356;
+}
+
+.cfText p{
+    margin-top: 30px;
+    color: #575757;
+}

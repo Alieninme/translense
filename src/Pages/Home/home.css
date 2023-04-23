@@ -1,0 +1,491 @@
+.heroSection{
+    height: 81vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.heroHeading{
+    padding-top: 100px;
+}
+
+.heroHeading h2{
+    font-weight: 200;
+}
+
+.heroHeading h2 span{
+    color: #FFA17A;
+}
+
+.heroHeading h1{
+    font-weight: 100;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.heroHeading h1 span{
+    color: #FFA17A;
+}
+
+.heroBtns{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.heroBtns button{
+    height: 40px;
+    width: 100px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.heroBtns button:hover{
+    color: black;
+    background-color: white;
+}
+
+/* assprog */
+
+.assistanceProg{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 30px;
+    background-color: #FAFAFA;
+}
+
+.assistanceProg h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.progListContainer{
+    display: flex;
+    height: 70vh;
+    flex-wrap: wrap;
+}
+.progSingleList{
+    width: 27vw;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.progSingleList img{
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.progSingleList h2{
+   font-weight: 100;
+   margin-bottom: 20px;
+}
+
+.progSingleList p{
+    font-weight: 100;
+}
+
+.circleProgBar{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.circleProgBar{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.singleCircleBar{
+    text-align: center;
+}
+
+.singleCircleBar h2{
+    color: #146356;
+    font-size: 40px;
+}
+
+.pollCardContainer{
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+  justify-content: space-between;
+  height: 600px;
+}
+
+.pollCard{
+    cursor: pointer;
+}
+
+.pollCard img{
+    width: 27vw;
+    height: 450px;
+}
+
+.cardInfo{
+    background-color: #70b5a9;
+    width: 27vw;
+    height: 200px;
+    color: white;
+    position: relative;
+    bottom: 205px;
+    background-color: rgb(20,99,86, .7);
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    transition: .5s;
+    backdrop-filter: blur(2px);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(20,99,86))
+    ;
+}
+
+.cardInfo h1{
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.vsisbilep{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.cardInfo button{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 38%;
+    margin-top: 30px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.cardInfo button:hover{
+    background: white;
+    color: #146356;
+}
+
+.cardInfoHover{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.cardInfo:hover{
+    height: 450px;
+    bottom: 455px;
+}
+
+.cardInfo:hover .cardInfoHover{
+    visibility: visible;
+    opacity: 1;
+}
+
+.donationProgBar{
+    width: 100%;
+}
+
+.cardInfoHover p{
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.takeAction{
+    width: 98vw;
+    height: 400px;
+    display: flex;
+}
+.takeAction img{
+    width: 40%;
+    height: 400px;
+}
+
+.takeActionBox{
+    padding: 10%;
+    padding-top: 5%;
+    margin-right: 150px;
+}
+
+.takeActionBox h1{
+    margin-bottom: 20px;
+}
+
+.takeActionBox p{
+    margin-bottom: 40px;
+    color: 
+    #575757;
+}
+
+.takeAction button{
+    width: 100px;
+    height: 40px;
+    background-color: #146356;
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.benefactorSingle img{
+    width: 350px;
+    height: 350px;
+    object-fit: fill;
+}
+
+.Benefactors{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 50px;
+}
+
+.benefactorsCont{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.benefactorSingle h1{
+    font-size: 20px;
+}
+
+.benefactorSingle p{
+    font-size: 14px;
+}
+.benefactorSingle{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.smIcons{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 30px;
+    position: relative;
+    bottom: 50%;
+    color: white;
+    visibility: hidden;
+}
+
+.benefactorSingle:hover .smIcons{
+    visibility: visible;
+}
+
+.beneTitle{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.CaseStudy{
+    margin-top: 90px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.caseStudyHead{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.caseCont{
+    display: flex;
+}
+
+.caseCont img{
+    width: 40%;
+}
+
+.caseText{
+    padding-left: 50px;
+    background-color: #5B9289;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.caseText h1{
+    font-size: 15px;
+    letter-spacing: 4px;
+    color: #A3DA8D;
+    margin-bottom: 10px;
+}
+
+.arrowConatiner{
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.buttonBox{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.buttonBox h2{
+    width: 70%;
+    color: white;
+    font-weight: 200;
+}
+
+.buttonBox button{
+   width: 80px;
+   height: 30px;
+   margin-top: 30px;
+    background: transparent;
+    border: 1px solid #A3DA8D;
+    border-radius: 4px;
+    color: #A3DA8D;
+    cursor: pointer;
+}
+
+.casetextP{
+    color: white;
+    padding-bottom: 30px;
+}
+
+.arrowConatiner a{
+    text-decoration: none;
+    font-size: 40px;
+    color: #A3DA8D;
+    margin-right: 30px;}
+
+.review{
+    margin-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.reviewCont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.reviewPreson img{
+    width: 50px;
+    border-radius: 50px;
+}
+
+.singleReview{
+    margin-right: 30px;
+    background-color: #FAFAFA;
+    padding: 20px;  
+}
+
+.reviewPreson{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.singleReview h1{
+    font-size: 50px;
+    color: #FFE3D8;
+}
+
+.singleReview p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.nameHolder h1{
+    font-size: 15px;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: -25px;
+}
+
+.nameHolder{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.sliderImg{
+    width: 100px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.Comapnies{
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+}
+
+.ComapniesText{
+    width: 50%;
+    padding-right: 100px;
+    margin-top: 40px;
+}
+
+.ComapniesText h1{
+    margin-bottom: 20px;
+}
+
+.SignUpForm{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.FormDetails{
+    width: 50%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    height: 100%;
+    padding-right: 100px;
+}
+
+.FormDetails h1{
+  margin-bottom: 30px;
+}
+
+.FormDetails p{
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+
+.FormDetails input{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.FormDetails input::placeholder{
+  padding-left: 20px;
+}
+
+.FormDetails button{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: #146356;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.SignUpForm img{
+  cursor: pointer;
+}
